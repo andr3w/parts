@@ -11,3 +11,6 @@ python3 -m venv venv
 source ./venv/bin/activate
 pip install flask
 pip install pymysql
+
+
+touch /tmp/parts.touchme; tail -f /var/log/uwsgi/app/parts.log
